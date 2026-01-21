@@ -98,3 +98,47 @@ Constraints:
 0 <= s.length <= 200
 s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 """
+class Solution:
+    def myAtoi(self, s: str) -> int:
+#공백제거
+# 앞에서부터 하나씩 순회(idx 0 부터)        
+# 0,1,2,3,4,5,6,7,8,9 가 아니면 트래쉬
+# result = 1
+# while? 주어진 s를 앞에서부터 훑는다
+# 숫자 0~9가 아니면 트래쉬(제거)
+# 만약 "-"라면 :트래쉬하고 result *= (-1)
+# 순회가 끝나면 s를 result *= int(s)
+        s = s.lstrip()
+
+        if s == "":
+            return 0
+
+        res_s = ""
+        result = 1
+        idx = 0
+        if s[0] == "-":
+                result = -1
+                idx = 1
+
+        if s[0] == "+":
+                result = 1
+                idx = 1
+
+        for i in range(idx,len(s)):
+            
+            if s[i].isdigit():
+                res_s += s[i]
+
+            else:
+                break
+                
+
+        if res_s == "":
+            return 0
+
+        final_res = result * int(res_s)              
+
+        if final_res < -(2**31): return -(2**31)
+        if final_res > (2**31-1): return (2**31-1)
+
+        return final_res
