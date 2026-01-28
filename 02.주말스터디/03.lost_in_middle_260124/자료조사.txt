@@ -1,0 +1,15 @@
+1) Lost in the middle 논문(첨부)
+한글 해석 : https://heygeronimo.tistory.com/101 *U자형 학습곡선에 대한 이야기가 들어가면 좋겠습니다!
+
+PAM QA 무엇인가? lost in middle 해결을위한 새로운 태스크
+
+2) Context Rot 연구결과 https://research.trychroma.com/context-rot
+한글 해석 : https://www.linkedin.com/pulse/llm의-문맥-부패context-rot-현상-youngshin-go-mijsc/
+
+
+lostinmiddle
+
+리랭킹으로 소팅 , lost in middle 문제 해결
+
+https://tech.ktcloud.com/entry/2025-11-ktcloud-rag-ai-%EC%B2%AD%ED%82%B9%EC%A0%84%EB%9E%B5-%EC%B5%9C%EC%A0%81%ED%99%94
+rag와 청킹전략 그리고 최적화

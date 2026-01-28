@@ -1,5 +1,0 @@
-1) Lost in the middle 논문(첨부)
-한글 해석 : https://heygeronimo.tistory.com/101 *U자형 학습곡선에 대한 이야기가 들어가면 좋겠습니다!
-
-2) Context Rot 연구결과 https://research.trychroma.com/context-rot
-한글 해석 : https://www.linkedin.com/pulse/llm의-문맥-부패context-rot-현상-youngshin-go-mijsc/
